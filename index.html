@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Boxicons -->
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<!-- My CSS -->
+	<link rel="stylesheet" href="style.css">
+
+	<title>SmartSkills</title>
+</head>
+
+<body>
+
+
+	<!-- SIDEBAR -->
+	<section id="sidebar">
+		<a href="#" class="brand">
+			<i class='bx bxs-smile'></i>
+			<span class="text">SmartSkills</span>
+		</a>
+		<ul class="side-menu top">
+			<li class="active">
+				<a href="#">
+					<i class='bx bxs-dashboard'></i>
+					<span class="text">Dashboard</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-group'></i>
+					<span class="text">Courses</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-shopping-bag-alt'></i>
+					<span class="text">Resources</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-doughnut-chart'></i>
+					<span class="text">Reports</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-group'></i>
+					<span class="text">Contact us</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-message-dots'></i>
+					<span class="text">Feedback</span>
+				</a>
+			</li>
+		</ul>
+		<ul class="side-menu">
+			<li>
+				<a href="#">
+					<i class='bx bxs-cog'></i>
+					<span class="text">Settings</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-help-circle'></i>
+					<span class="text">Help & Support</span>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="logout">
+					<i class='bx bxs-help-circle'></i>
+					<span class="text">Sign Out</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	<!-- SIDEBAR -->
+
+
+
+	<!-- CONTENT -->
+	<section id="content">
+		<!-- NAVBAR -->
+		<nav>
+			<i class='bx bx-menu'></i>
+			<a href="#" class="nav-link">Dashboard</a>
+			<form action="#">
+				<div class="form-input">
+					<input type="search" placeholder="Search...">
+					<button type="submit" class="search-btn"><i class='bx bx-search'></i></button>
+				</div>
+			</form>
+			<input type="checkbox" id="switch-mode" hidden>
+			<label for="switch-mode" class="switch-mode"></label>
+			<a href="#" class="notification">
+				<i class='bx bxs-bell'></i>
+				<span class="num">8</span>
+			</a>
+			<a href="#" class="profile">
+				<img src="img/avtar1.jpeg">
+			</a>
+		</nav>
+		<!-- NAVBAR -->
+
+		<!-- MAIN -->
+		<main>
+			<div class="head-title">
+				<div class="left">
+					<h1>Dashboard</h1>
+				</div>
+			</div>
+
+			<ul class="box-info">
+				<li>
+					<i class='bx bxs-time'></i>
+					<span class="text">
+						<h1>Total Time Spent</h1>
+						<p>24h 36m</p>
+					</span>
+				</li>
+				<li>
+					<i class='bx bxs-check-circle'></i>
+					<span class="text">
+						<h1>Courses Completed</h1>
+						<p>12</p>
+					</span>
+				</li>
+				<li>
+					<i class='bx bx-pulse'></i>
+					<span class="text">
+						<h1>Courses in Progress</h1>
+						<p>8</p>
+					</span>
+				</li>
+				<li>
+					<i class='bx bxs-tachometer'></i>
+					<span class="text">
+						<h1>Learning Efficiency</h1>
+						<p>85%</p>
+
+					</span>
+				</li>
+			</ul>
+
+
+			<div class="table-data">
+				<div class="order">
+					<div class="head">
+						<h3>My Courses</h3>
+						<i class='bx bx-search'></i>
+						<i class='bx bx-plus'></i>
+						<i class='bx bx-filter'></i>
+					</div>
+					<table>
+						<thead>
+							<tr>
+								<th>Courses</th>
+								<th>Progress</th>
+								<th>Time Spent</th>
+								<th>Completion</th>
+								<th>Actions</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<img src="img/react.png">
+									<p>Introduction to React</p>
+								</td>
+								<td><span class="status completed">Completed</span></td>
+								<td>18h 42m</td>
+								<td>100%</td>
+								<td class="hover"><i class='bx bx-dots-vertical-rounded'></i></td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/js.png">
+									<p>Advanced JavaScript</p>
+								</td>
+								<td><span class="status pending">Progress</span></td>
+								<td>28h 15m</td>
+								<td>92%</td>
+								<td class="hover"><i class='bx bx-dots-vertical-rounded'></i></td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/css.png">
+									<p>Mastering CSS</p>
+								</td>
+								<td><span class="status pending">Progress</span></td>
+								<td>12h 54m</td>
+								<td>66%</td>
+								<td class="hover"><i class='bx bx-dots-vertical-rounded'></i></td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/web.jpeg">
+									<p>Responsive Web Design</p>
+								</td>
+								<td><span class="status pending">Progress</span></td>
+								<td>22h 30m</td>
+								<td>36%</td>
+								<td class="hover"><i class='bx bx-dots-vertical-rounded'></i></td>
+							</tr>
+							
+						</tbody>
+					</table>
+				</div>
+				<div class="todo">
+					<div class="head">
+						<div>
+							<h2>Instructor Dashboard</h2>
+							<p>Manage your educational resources and learning paths.</p>
+						</div>
+					</div>
+					<div class="import">
+                <Button class="block">
+					<i class='bx bxs-file-import'></i>
+                  Import BibTeX
+                </Button>
+                <Button class="block">
+					<i class='bx bxs-file-import'></i>
+                  Import Excel
+                </Button>
+                <Button class="block">
+					<i class='bx bx-plus'></i>
+                  Create Learning Path
+                </Button>
+                <Button class="block">
+					<i class='bx bxs-book-open'></i>
+                  Manage Resources
+                </Button>
+              </div>
+				</div>
+			</div>
+		</main>
+		<!-- MAIN -->
+		 
+	</section>
+	<!-- CONTENT -->
+	 
+
+
+	<script src="script.js"></script>
+</body>
+
+</html>
